@@ -1,3 +1,180 @@
-h1 {
-  color: blue;
+@media (max-width: 768px) {
+@font-face {
+    font-family: "Lato";
+    src: url('698242188-Lato-Bla.eot');
+    src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+    url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+    url('698242188-Lato-Bla.woff') format('woff'),
+    url('698242188-Lato-Bla.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15px;
+    width: 28px;
+    z-index: 99;
+  }
+
+  .bar {
+    height: 3px;
+    background-color: black;
+  }
+  #logo {
+    display: none;
+    /* visibility: hidden; */
+
+  }
+  .nav-menu {
+    display: none;
+    /* visibility: hidden; */
+  }
+  header {
+    display: none;
+  
+  }
+  .programm {
+  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+  }
+  .main-programm {
+   
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 90%;
+    background-color: #424242;
+    color: white;
+    margin:10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+  }
+  .under-line {
+    height: 5px;
+    width: 60px;
+    background-color: red;
+  }
+  .main-section {
+    margin: 15px;
+    height: 430px;
+    background-image: url('assets/white-technology-background-circuit-diagrams_115579-1036.webp');
+    background-repeat: no-repeat;
+    background-size: 300px 400px;
+
+  }
+  h1 {
+    font-size: 18px;
+    color: #ff6347;
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+  h5 {
+    font-size: 35px;
+    margin-top: 0;
+    background: -webkit-linear-gradient(#ff0000, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  #first-para {
+    color: #000000;
+    font-size: 16px;
+  }
+  #sec-para {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  #third-para {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  #card-theme {
+    margin: 10px;
+  }
+
+  .patterns {
+    width: 20vw;
+    height: 20vw;
+    margin-left: 10px;
+}
+ 
+.pt1 {
+    background-color: #eee;
+    background-size: 30px 30px;
+    background-position: 0 0, 30px 30px;
+    background-image: -webkit-linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), -webkit-linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-image: -moz-linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), -moz-linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-image: -ms-linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), -ms-linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-image: -o-linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), -o-linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+}
+#img-feature {
+  width: 90px;
+  height: 140px;
+  margin-left: 10px;
+  border: 10px solid #B2BEB5;
+  border-radius: 50%;
+}
+.featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.speakers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.inner-speaker {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+ 
+  margin: 10px;
+}
+.speaker-name {
+  margin-bottom: 0;
+  font-size: 25px;
+  font weight: 400px;
+}
+.speaker-role {
+  margin-top: 4px;
+  font-size: 18px;
+  font-style: oblique;
+  color: red;
+}
+.speaker-descrip {
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #00008b;
+}
+.under-line-1 {
+  height: 5px;
+  width: 40px;
+  background-color: #808080;
+}
+.show-more {
+  border: 1px solid green;
+  align-items: center;
+  justify-content: center;
+}
 }
