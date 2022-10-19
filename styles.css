@@ -19,6 +19,12 @@
     padding: 0;
     margin: 0;
   }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+  } 
 
   .hamburger-menu {
     display: flex;
@@ -33,17 +39,59 @@
     height: 3px;
     background-color: black;
   }
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: gray;
+  }
+
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+    transition: 0.5s ease;
+    background-color: gray;
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+    transition: 0.5s ease all;
+    background-color: gray;
+  }
+  .nav-menu {
+    left: -120%;
+    height: 90%;
+    border-radius: 0 0 5px 5px;
+    position: fixed;
+    top: 0;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 0 300px 28px;
+    background-color: #fff;
+    width: 100%;
+    transition: 0.5s ease-out;
+  }
+
+  .nav-item {
+    display: flex;
+  }
+
+  .nav-link {
+    font-size: 28px;
+    font-weight: 600;
+    transition: 0.3s;
+    color: #000;
+    padding-top: 15px;
+  }
+
+  .nav-link:hover {
+    color: #1422bb;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
 
   #logo {
     display: none;
-
-    /* visibility: hidden; */
-  }
-
-  .nav-menu {
-    display: none;
-
-    /* visibility: hidden; */
   }
 
   header {
@@ -146,10 +194,10 @@
 
   #img-feature {
     width: 90px;
-    height: 140px;
+    height: 100px;
     margin-left: 10px;
     border: 10px solid #b2beb5;
-    border-radius: 50%;
+    
   }
 
   .featured {
@@ -199,7 +247,7 @@
     background-color: #808080;
   }
 
-  .show-more {
+  .show-speakers {
     border: 1px solid black;
     align-items: center;
     justify-content: center;
@@ -327,6 +375,9 @@
   .head-text {
     color: white;
   }
+  #show-more {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -453,6 +504,12 @@
     padding-left: 5px;
     padding-right: 5px;
     font-size: 16px;
+    transition: transform;
+  }
+  .main-programm:hover{
+    transform: scale(1.2);
+    border: 1px solid #fff;
+
   }
 
   .under-line {
@@ -526,10 +583,14 @@
 
   #img-feature {
     width: 90px;
-    height: 140px;
+    height: 100px;
     margin-left: 10px;
-    border: 10px solid #b2beb5;
-    border-radius: 50%;
+    border: 5px solid #b2beb5;
+    
+    transition: transform;
+  }
+  #img-feature:hover {
+    transform: scale(1.4);
   }
 
   .featured {
@@ -547,7 +608,7 @@
     width: 50%;
   }
 
-  .main-speakers {
+  .main-speakers, .shart {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
