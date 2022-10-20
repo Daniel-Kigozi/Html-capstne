@@ -1,11 +1,5 @@
 # Html-capstne
-This project is a design of a technology summit website
-
-Built With
--Html css and javascript
-
-
-To get a local copy up and running follow these simple example steps.
+HTML, CSS, Javascript capstone project
 
 Prerequisites
 -text editor -nodejs installed on your local machine 
@@ -16,13 +10,30 @@ Setup
 Install
 -Run npm install to install project dependencies
 
+Built With
+Html,
+CSS,
+Javascript
+
+
+Live Demo
+https://daniel-kigozi.github.io/Html-capstne
+
+Getting Started
+This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+
+To get a local copy up and running follow these simple example steps.
+
+Prerequisites
+
+
 Authors
--GitHub: Daniel-Kigozi -Twitter: @DanielKigozi15 -LinkedIn: daniel-kigozi-375182208/
+-GitHub: Daniel-Kigozi 
+-Twitter: @DanielKigozi15 
+-LinkedIn: daniel-kigozi-375182208/
 
-Github pages
-Live Demo: https://daniel-kigozi.github.io/Html-capstne
-
-handshake Contributing Contributions, issues, and feature requests are welcome!
+handshake Contributing
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
