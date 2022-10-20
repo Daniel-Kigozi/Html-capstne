@@ -7,31 +7,31 @@
 },
 {
     "name":"Julia Leda",
-    "role":"Berkman Professor",
+    "role":"Motivational speaker",
     "details":"Learn modern ways of protecting your system",
     "image": "./assets/project/julia-leda.png"
 },
 {
     "name":"Kilman Chon",
-    "role":"Berkman Professor",
+    "role":"Head of Sales Google",
     "details":"Learn modern ways of protecting your system",
     "image": "./assets/project/Kilman-chon.png"
 },
 {
     "name":"Lila Trekikov",
-    "role":"Berkman Professor",
+    "role":"Financial advisor, Base Investments ltd",
     "details":"Learn modern ways of protecting your system",
     "image": "./assets/project/lila-tretikov.png"
 },
 {
     "name":"Ryan Merkley",
-    "role":"Berkman Professor",
+    "role":"CEO World Bank",
     "details":"Learn modern ways of protecting your system",
     "image": "./assets/project/Ryan-merkley.png"
 },
 {
     "name":"Sohyeong Noh",
-    "role":"Berkman Professor",
+    "role":"MIT Professor",
     "details":"Learn modern ways of protecting your system",
     "image": "./assets/project/sohyeong-Noh.png"
 }

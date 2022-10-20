@@ -105,7 +105,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #212121;
+
+    /* background-color: #212121; */
+    background-color: #272a31;
   }
 
   .line-programm {
@@ -113,7 +115,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #212121;
+    background-color: #272a31;
+
+    /* background-color: #212121; */
   }
 
   .main-programm {
@@ -130,9 +134,9 @@
   }
 
   .under-line {
-    height: 5px;
+    height: 2px;
     width: 60px;
-    background-color: red;
+    background-color: #ec5242;
   }
 
   .main-section {
@@ -141,11 +145,12 @@
     background-image: url('assets/white-technology-background-circuit-diagrams_115579-1036.webp');
     background-repeat: no-repeat;
     background-size: 300px 400px;
+    padding: 12px;
   }
 
   h1 {
     font-size: 18px;
-    color: #ff6347;
+    color: #ec5242;
     margin-bottom: 0;
     margin-top: 40px;
   }
@@ -153,14 +158,21 @@
   h5 {
     font-size: 35px;
     margin-top: 0;
-    background: -webkit-linear-gradient(#f00, #333);
+    color: #ec5242;
+
+    /* background: -webkit-linear-gradient(#f00, #333); */
+
+    /* background: -webkit-linear-gradient(#EC5242, #333);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
   }
 
   #first-para {
     color: #000;
     font-size: 16px;
+    border: 2px solid white;
+    background-color: #f2f4f2;
+    padding: 13px;
   }
 
   #sec-para {
@@ -175,6 +187,7 @@
 
   #card-theme {
     margin: 10px;
+    color: #ec5242;
   }
 
   .patterns {
@@ -198,7 +211,6 @@
     width: 90px;
     height: 100px;
     margin-left: 10px;
-    border: 10px solid #b2beb5;
   }
 
   .featured {
@@ -243,7 +255,7 @@
   }
 
   .under-line-1 {
-    height: 5px;
+    height: 2px;
     width: 40px;
     background-color: #808080;
   }
@@ -304,9 +316,24 @@
 
   footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    border: 1px solid blue;
+    padding: 0;
+  }
+
+  .footer-2 {
+    font-size: 20px;
+    color: #ec5242;
+  }
+
+  .footer-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid blue;
   }
 
   .partners {
@@ -376,6 +403,12 @@
 
   .head-text {
     color: white;
+  }
+
+  .head-text-1 {
+    color: white;
+    background-color: #ec5242;
+    padding: 15px;
   }
 
   #show-more {
@@ -478,7 +511,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #212121;
+
+    /* background-color: #212121; */
+    background-color: #272a31;
   }
 
   .programm {
@@ -486,6 +521,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #272a31;
   }
 
   .programm-1 {
@@ -493,7 +529,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #212121;
+    background-color: #272a31;
+
+    /* background-color: #212121; */
   }
 
   .main-programm {
@@ -516,9 +554,9 @@
   }
 
   .under-line {
-    height: 5px;
+    height: 2px;
     width: 60px;
-    background-color: red;
+    background-color: #ec5242;
   }
 
   .main-section {
@@ -526,11 +564,14 @@
     background-image: url('assets/images.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 10px;
   }
 
   h1 {
     font-size: 25px;
-    color: #ff6347;
+    color: #ec5242;
+
+    /* color: #ff6347; */
     margin-bottom: 0;
     margin-top: 40px;
     margin-left: 100px;
@@ -540,9 +581,13 @@
     font-size: 60px;
     margin-top: 0;
     margin-left: 100px;
-    background: -webkit-linear-gradient(#f00, #333);
+    color: #ec5242;
+
+    /* background: -webkit-linear-gradient(#f00, #333); */
+
+    /* background: -webkit-linear-gradient(#EC5242, #333);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
   }
 
   #first-para {
@@ -565,6 +610,7 @@
 
   #card-theme {
     margin: 10px;
+    color: #ec5242;
   }
 
   .patterns {
@@ -588,7 +634,6 @@
     width: 90px;
     height: 100px;
     margin-left: 10px;
-    border: 5px solid #b2beb5;
     transition: transform;
   }
 
@@ -650,7 +695,7 @@
   }
 
   .under-line-1 {
-    height: 5px;
+    height: 2px;
     width: 40px;
     background-color: #808080;
   }
@@ -710,86 +755,120 @@
 
   footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .partners {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #676767;
-    width: 100%;
-  }
-
-  .partner-details {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
-    width: 70%;
-    margin-top: 20px;
-    padding-bottom: 15px;
-  }
-
-  #partner-name {
-    font-size: 30px;
-  }
-
-  .logo-photo {
-    border: 1px solid #e2e5de;
-    width: 60%;
     align-items: center;
-    margin: auto;
   }
 
-  #logo-picture {
-    width: 90%;
-    margin: auto;
+  .footer-2 {
+    font-size: 20px;
+    color: #fff;
   }
 
-  .conference {
-    background-image: url('assets/tech-conference.jpg');
-    width: 90%;
-    height: 250px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  .footer-1 {
+    color: #fff;
   }
 
-  .conference-1 {
-    background-image: url('assets/technology-man.jpg');
-    width: 90%;
-    height: 250px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  .footer-3 {
+    font-size: 20px;
+    color: black;
   }
+}
 
-  #conf-id {
-    font-size: 30px;
-    color: white;
-  }
+.footer-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  button {
-    display: none;
-  }
 
-  .head-text {
-    color: white;
-  }
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #676767;
+  width: 100%;
+}
 
-  .past-forums {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
+.partner-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+#partner-name {
+  font-size: 30px;
+}
+
+.logo-photo {
+  border: 1px solid #e2e5de;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+}
+
+#logo-picture {
+  width: 90%;
+  margin: auto;
+}
+
+.conference {
+  background-image: url('assets/tech-conference.jpg');
+  width: 90%;
+  height: 250px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.conference-1 {
+  background-image: url('assets/technology-man.jpg');
+  width: 90%;
+  height: 250px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+#conf-id {
+  font-size: 30px;
+  color: white;
+}
+
+button {
+  display: none;
+}
+
+.head-text {
+  color: white;
+}
+
+.head-text-1 {
+  color: white;
+  background-color: #ec5242;
+  padding: 15px;
+}
+
+.past-forums {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+#about-footer {
+  background-color: #272a31;
+}
   }
 }
