@@ -20,7 +20,7 @@ Authors
 -GitHub: Daniel-Kigozi -Twitter: @DanielKigozi15 -LinkedIn: daniel-kigozi-375182208/
 
 Github pages
-
+Live Demo: https://daniel-kigozi.github.io/Html-capstne
 
 handshake Contributing Contributions, issues, and feature requests are welcome!
 
