@@ -2,6 +2,8 @@ const hamburgerMenu = document.querySelector('.hamburger-menu');
 const navMenu = document.querySelector('.nav-menu');
 const body = document.querySelector('body');
 const programm = document.querySelector('.main-speakers');
+const showMoreBtn = document.querySelector(".show-speakers");
+let speakerCount = 2;
 const arrayobject=[
   {
       "name":"Yochai Benkler",
@@ -43,7 +45,6 @@ const arrayobject=[
   ]
 
 
- 
   window.onload =() => {
     
     hamburgerMenu.addEventListener('click', () => {
@@ -54,34 +55,54 @@ const arrayobject=[
       hamburgerMenu.classList.remove('active');
       navMenu.classList.remove('active');
     }));
-  
-  
-    const displayPrograms = ({name, details, image, role})=>{
+
+  const displayPrograms = ()=>{
+    for(let i=0; i<speakerCount; i++){
       let div = document.createElement('div');
-      div.className ="speakers";
-      div.innerHTML = `
-      
-      <img id="img-feature" src="${image}"/>
-      <div class="inner-speaker">
-          <p class="speaker-name">${name}</p>
-          <p class="speaker-role">${role}</p>
-          <div class="under-line-1"></div>
-          <p class="speaker-decrip">${details}</p>
-      </div>
-         `;
-      return div;
-  
+    div.className ="speakers";
+    div.innerHTML = `
+    
+    <img id="img-feature" src="${arrayobject[i].image}"/>
+    <div class="inner-speaker">
+        <p class="speaker-name">${arrayobject[i].name}</p>
+        <p class="speaker-role">${arrayobject[i].role}</p>
+        <div class="under-line-1"></div>
+        <p class="speaker-decrip">${arrayobject[i].details}</p>
+    </div>
+       `;
+    programm.append(div);
     }
     
-    const getPrograms = ()=>{
-      arrayobject.forEach((project) =>{
-        programm.append(displayPrograms(project))
-      })
-  }
-  getPrograms();
-
 
   }
+
+  showMoreBtn.addEventListener('click', ()=>{
+    if(speakerCount === 2){
+      speakerCount = arrayobject.length;
+      programm.innerHTML = ``;
+      showMoreBtn.textContent = 'Show Less';
+      displayPrograms();
+    } else {
+      speakerCount = 2;
+      programm.innerHTML = ``;
+      showMoreBtn.textContent = 'Show More';
+      displayPrograms();
+    }
+  })
+
+  if(window.innerWidth>786){
+    speakerCount = arrayobject.length;
+    displayPrograms();
+  } else {
+    displayPrograms();
+  }
+  
+ 
+
+  
+  }
+
+  
 
 
 

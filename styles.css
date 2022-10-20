@@ -251,13 +251,15 @@
   }
 
   .show-speakers {
-    display: none;
     border: 1px solid black;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
-    width: 40%;
+    width: 60%;
     color: red;
+    height: 2.4rem;
+    font-weight: bold;
+    cursor: pointer;
   }
 
   .heading,
@@ -314,7 +316,7 @@
 
   .footer-2 {
     font-size: 20px;
-    color: #ec5242;
+    color: black;
   }
 
   .footer-img {
@@ -324,7 +326,7 @@
     align-items: center;
   }
 
-  .partners {
+  .partners-mobile {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -333,7 +335,11 @@
     width: 100%;
   }
 
-  .partner-details {
+  .partners {
+    display: none;
+  }
+
+  .partner-details-mobile {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -342,7 +348,7 @@
     margin-top: 20px;
   }
 
-  #partner-name {
+  #partner-name-1 {
     font-size: 30px;
   }
 
@@ -399,7 +405,7 @@
     padding: 15px;
   }
 
-  #show-more {
+  .index-footer {
     display: none;
   }
 }
@@ -467,7 +473,7 @@
     color: black;
   }
 
-  header {
+  .social-media {
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -843,5 +849,9 @@
 
   #about-footer {
     background-color: #272a31;
+  }
+
+  .partners-mobile {
+    display: none;
   }
 }
