@@ -309,7 +309,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid blue;
+    
     padding: 0;
   }
 
@@ -323,7 +323,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid blue;
+    
   }
 
   .partners {
