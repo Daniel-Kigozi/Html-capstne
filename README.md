@@ -52,3 +52,8 @@ Original design by: https://www.behance.net/adagio07
 
 License
 This project is [MIT](https://github.com/Daniel-Kigozi/Mobile-First/blob/my-html/LICENSE.md)licensed.
+
+![Screenshot from 2022-12-23 11-24-55](https://user-images.githubusercontent.com/69048579/209300786-370a41d5-de5c-4a17-adcd-b26e7c62ed34.png)
+![Screenshot from 2022-12-23 11-26-40](https://user-images.githubusercontent.com/69048579/209300831-c536c287-7e3a-4277-b3d9-34e24d3c3954.png)
+![Screenshot from 2022-12-23 11-25-49](https://user-images.githubusercontent.com/69048579/209300877-e2a6e802-ed4a-42b9-8f3f-4926f956fbdb.png)
+
